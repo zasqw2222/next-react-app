@@ -12,13 +12,18 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "antd": "^3.10.2",
     "express": "^4.16.4",
     "next": "^7.0.2",
+    "open": "0.0.5",
+    "opn": "^5.4.0",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
     "styled-components": "^4.0.2"
   },
   "devDependencies": {
+    "babel-plugin-import": "^1.10.0",
     "babel-plugin-styled-components": "^1.8.0"
   }
 }
