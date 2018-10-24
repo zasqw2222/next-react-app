@@ -12,6 +12,10 @@ const handle = app.getRequestHandler()
 
 const port = process.env.PORT || 3000
 
+const mobxReact = require('mobx-react')
+mobxReact.useStaticRendering(true)
+
+
 app.prepare().then(() => {
     const server = express()
     server.get('/google', (req, res) => {
